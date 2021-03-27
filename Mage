@@ -1,0 +1,17 @@
+class Mage:
+    """ Class Mage """
+    
+    def __init__(self,name='',life=70,agility=10,strenght=3,wit=10,RPGClass='Mage',attack=''):
+        self.name=name
+        self.life=life
+        self.agility=agility
+        self.strenght=strenght
+        self.wit=wit
+        self.RPGClass=RPGClass
+        print(name,": May the gods be with me.")
+            
+    def attack(self,weapon):
+        if weapon!="magic" or weapon!="wand":
+            print(self.nom,": Doesnt attack")
+        else:
+            print(self.nom,": Feel the power of my ",weapon)
