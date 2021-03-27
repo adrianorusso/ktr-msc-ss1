@@ -1,0 +1,5 @@
+def Movable(self,move):
+        if move=="moveRight" or move=="moveLeft" or move=="moveForward" or move=="moveBack":
+            print(self.nom,": moves ",move[4:].lower())
+        else:
+            print("Wrong move")
