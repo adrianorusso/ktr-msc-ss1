@@ -1,0 +1,9 @@
+def Movable2(self,move):
+        if move=="moveRight" or move=="moveLeft" or move=="moveForward" or move=="moveBack":
+            if type(self).__name__.=="Warrior":
+                print(self.nom,": moves ",move[4:].lower()," like a bad boy.")
+            else:
+                print(self.nom,": moves ",move[4:].lower()," furtively.")
+        else:
+            print("Wrong move")
+© 2021 GitHub, Inc.
