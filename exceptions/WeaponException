@@ -1,0 +1,11 @@
+
+class WeaponException:
+    """ Class WeaponException """
+        def attack(self,weapon):
+            if weapon=="":
+                if type(self).__name__.=="Warrior":
+                     print(self.nom,": A ",weapon," ??? What shoul I do with this ?!")
+                else if type(self).__name__.=="Mage":
+                    print(self.nom,": I dont need this stupid ",weapon," ! Dont misjudge my powers !")
+                else:
+                    print(self.nom,": I refuse to fight with my bare hands.")
