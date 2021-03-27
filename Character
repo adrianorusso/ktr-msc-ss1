@@ -11,3 +11,4 @@ class Character:
         
     def attack(self,weapon):
         print(self.nom,": ",weapon)
+        
