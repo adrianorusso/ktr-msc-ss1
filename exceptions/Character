@@ -1,0 +1,13 @@
+class Character:
+    """ Class Character """
+    
+    def __init__(self,name='',life=50,agility=2,strenght=2,wit=2,RPGClass=''):
+        self.name=name
+        self.life=life
+        self.agility=agility
+        self.strenght=strenght
+        self.wit=wit
+        self.RPGClass=RPGClass
+        
+    def attack(self,weapon):
+        print(self.nom,": ",weapon)
