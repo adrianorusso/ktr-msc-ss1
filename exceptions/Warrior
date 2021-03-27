@@ -1,0 +1,17 @@
+class Warrior:
+    """ Class Warrior """
+    
+    def __init__(self,name='',life=100,agility=8,strenght=10,wit=3,RPGClass='Warrior'):
+        self.name=name
+        self.life=life
+        self.agility=agility
+        self.strenght=strenght
+        self.wit=wit
+        self.RPGClass=RPGClass
+        print(name,": My name will go down in history!")
+            
+    def attack(self,weapon):
+        if weapon!="hammer" or weapon!="sword":
+            print(self.nom,": Doesnt attack")
+        else:
+            print(self.nom,": I'll crush you with my ",weapon)
